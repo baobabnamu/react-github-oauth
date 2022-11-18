@@ -23,17 +23,21 @@
    ```sh
    git clone https://github.com/baobabnamu/react-github-oauth.git
    ```
+   
+ - NPM Start
+   ```sh
+   npm start
+   ```
 <br/>
 
 ## How to Test
-Installion 를 참고하여 React 데모 앱을 실행합니다.
-React 앱 실행 시 '버튼버튼1' 이라는 버튼이 있으실텐데, 해당 버튼을 누르신 후 Github에 로그인합니다.
-hello가 출력되는 화면으로 이동하셨다면 해당 주소에 query string을 복사하여 NestJS API(/github-login)에 요청하시면 됩니다.
+Installion 를 참고하여 React 데모 앱을 실행합니다.  
+React 앱 실행 시 '버튼버튼1' 이라는 버튼이 있으실텐데, 해당 버튼을 누르신 후 Github에 로그인합니다.  
+hello가 출력되는 화면으로 이동하셨다면 해당 주소에 query string을 복사하여 NestJS API(/github-login)에 요청하시면 됩니다.  
 
 <br/>
 <br/>
 
 ## Environment Table
 
-| Variable           | dev | qa/prod |  Example                 | Explanation                                                                         |
-| ------------------ | :-: | :-----: | :-----------------------: | ----------------------------------------------------------------------------------- |
+원래는 CLIENT_ID를 환경 변수로 줘야되지만, 테스트용이므로 하드코딩 했다.
